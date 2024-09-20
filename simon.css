@@ -1,0 +1,82 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background: url(assets/backk1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Press Start 2P", system-ui;
+    font-size: small;
+    color: aliceblue;
+}
+
+background{
+    background-size: 100vh;
+}
+
+h1::first-letter{
+    color:deeppink;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.gameHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+}
+
+h2{
+    color:aliceblue ;
+}
+h3{
+    color:dodgerblue;
+}
+
+.rules{
+    text-align: start;
+    margin: 20px;
+}
+
+li{
+    font-size: 1.3em;
+    line-height: 1.7em;
+}
+
+.btn{
+    height: 18vh;
+    width: 9vw;
+    border: 3px solid white;
+    border-radius: 20%;
+    padding: 2em;
+    margin: 1em;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    background-color: #EB2A5D;
+}
+.yellow{
+    background-color: #FFF024;
+}
+.blue{
+    background-color: #007AB5;
+}
+.green{
+    background-color: #17B978;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userflash{
+    background-color:chartreuse;
+}
